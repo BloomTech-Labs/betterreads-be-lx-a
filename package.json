@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
+    "server": "nodemon server.js",
     "watch:dev": "nodemon",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix .",

@@ -5,7 +5,7 @@ router.get('/', function (req, res) {
 });
 
 router.get('/:id', function (req, res) {
-  res.status(200).json({ msg: 'Individual Search Router' });
+  res.status(200).json({ msg: 'IndividualSearch Router' });
 });
 
 router.get('/test/:id', function (req, res) {
